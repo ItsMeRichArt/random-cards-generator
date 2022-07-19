@@ -1,1 +1,42 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: rgb(26, 205, 26);
+  display: flex;
+  justify-content: center;
+  margin-top: 15em;
+}
+
+#card {
+  width: 16em;
+  height: 24em;
+
+  background: white;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.palo-superior {
+  margin: 0.25em 0 0 0.25em;
+  font-size: 5em;
+}
+
+.numero {
+  text-align: center;
+  font-size: 5em;
+}
+
+.palo-inferior {
+  font-size: 5em;
+  margin: 0.25em 0 0 0.25em;
+  padding-left: 0.25em;
+  transform: rotate(180deg);
+}
+
+.red {
+  background: red;
+}
